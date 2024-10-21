@@ -1,0 +1,30 @@
+PODS:
+  - AWSCognitoIdentityProvider (2.37.2):
+    - AWSCognitoIdentityProviderASF (= 2.37.2)
+    - AWSCore (= 2.37.2)
+  - AWSCognitoIdentityProviderASF (2.37.2):
+    - AWSCore (= 2.37.2)
+  - AWSCore (2.37.2)
+  - AWSRekognition (2.37.2):
+    - AWSCore (= 2.37.2)
+
+DEPENDENCIES:
+  - AWSCognitoIdentityProvider
+  - AWSRekognition
+
+SPEC REPOS:
+  trunk:
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSRekognition
+
+SPEC CHECKSUMS:
+  AWSCognitoIdentityProvider: 33ac4940169e5987151911a92b7dc0929b044d3d
+  AWSCognitoIdentityProviderASF: 94f273d7a89632efa3d1358b96d87052b6a2750b
+  AWSCore: 4cbaf219af10ec390a0432ee2b380f7fa644b80c
+  AWSRekognition: 0e47b3f86278a9e59f4ccad7ec745814c9936fc8
+
+PODFILE CHECKSUM: 737dbc011e49093be3224b6e0c0a7516a2988c0f
+
+COCOAPODS: 1.15.2
